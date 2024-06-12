@@ -1,0 +1,10 @@
+.invoice-wrap {
+    background-color: var(--gray-bg);
+}
+
+.invoice {
+    background-color: var(--global-white);
+    width: 780px;
+    padding: 20px;
+    border-radius: 10px;
+}

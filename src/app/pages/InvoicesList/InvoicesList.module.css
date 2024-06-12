@@ -1,0 +1,11 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: stretch;
+    height: var(--navigation-height);
+    padding: var(--navigation-vertical-padding) 40px;
+    background-color: #e5e5e6;
+}
+
+

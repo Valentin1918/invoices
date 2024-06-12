@@ -1,0 +1,23 @@
+.filtering-section {
+    width: inherit;
+    height: calc(var(--navigation-height) - 2 * var(--navigation-vertical-padding));
+
+    .autocomplete-wrap {
+        width: 260px;
+    }
+
+    .clear-customer-button {
+        width: 100px;
+    }
+
+    .reset-button {
+        width: 140px;
+        margin-right: 18px;
+    }
+
+    .input-wrap {
+        width: 180px;
+    }
+}
+
+

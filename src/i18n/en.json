@@ -1,0 +1,113 @@
+{
+  "AUTH": {
+    "404": "404",
+    "PAGE_NOT_FOUND_TITLE": "Page not found",
+    "PAGE_NOT_FOUND_TEXT": "The page you are looking for might have been removed",
+    "RETURN_BUTTON_TEXT": "Return to website"
+  },
+  "INVOICES_LIST": {
+    "CREATE_INVOICE_BUTTON": "Create Invoice",
+    "FILTERING": {
+      "FILTERING_OPTIONS": "Filtering options",
+      "CUSTOMER_LABEL": "Customer",
+      "CLEAR_CUSTOMER_BUTTON": "Clear",
+      "RESET_ALL_BUTTON": "Reset all",
+      "TOTAL_LABEL": "Total",
+      "MORE": ">",
+      "LESS": "<",
+      "EQUAL": "=",
+      "STATUSES_LABEL": "Statuses",
+      "DATE_LABEL": "Date",
+      "DEADLINE_LABEL": "Deadline"
+    },
+    "TABLE": {
+      "ID_COLUMN_HEADER": "Id",
+      "CUSTOMER_COLUMN_HEADER": "Customer",
+      "ADDRESS_COLUMN_HEADER": "Address",
+      "TOTAL_COLUMN_HEADER": "Total",
+      "TAX_COLUMN_HEADER": "Tax",
+      "FINALIZED_COLUMN_HEADER": "Finalized",
+      "PAID_COLUMN_HEADER": "Paid",
+      "DATE_COLUMN_HEADER": "Date",
+      "DEADLINE_COLUMN_HEADER": "Deadline",
+      "ACTIONS_COLUMN_HEADER": "Actions",
+      "YES": "Yes",
+      "NO": "No",
+      "OPEN_INVOICE_BUTTON": "Open",
+      "NO_RESULTS": "No results"
+    }
+  },
+  "INVOICE_SHOW": {
+    "BACK_TO_LIST_BUTTON": "Back to list",
+    "TITLE": "Invoice",
+    "UPDATE_MODAL_BODY": "Do You want to update the invoice?",
+    "UPDATE_MODAL_BUTTON": "Update",
+    "DELETE_MODAL_BODY": "Do You want to delete the invoice?",
+    "DELETE_MODAL_BUTTON": "Delete",
+    "LEAVE_MODAL_BODY": "Do You want to leave? Your changes will not be saved!",
+    "LEAVE_MODAL_BUTTON": "Leave",
+    "INVOICE_FORM": {
+      "TOTAL_LABEL": "Total",
+      "TAX_LABEL": "Tax",
+      "FINALIZED_LABEL": "Finalized",
+      "PAID_LABEL": "Paid",
+      "DATE_LABEL": "Date",
+      "DEADLINE_LABEL": "Deadline"
+    },
+    "CUSTOMER_FORM": {
+      "CUSTOMER_LABEL": "Customer",
+      "CUSTOMER_DETAILS_LABEL": "Customer details",
+      "FIRST_NAME_LABEL": "First name",
+      "LAST_NAME_LABEL": "Last name",
+      "ADDRESS_LABEL": "Address",
+      "CITY_LABEL": "City",
+      "COUNTRY_LABEL": "Country",
+      "ZIP_CODE_LABEL": "Zip code"
+    },
+    "INVOICE_LINES": {
+      "TITLE": "Invoice lines",
+      "DELETE_LINE_BUTTON": "Delete line",
+      "ADD_LINE_BUTTON": "Add line",
+      "PRODUCT_LABEL": "Product",
+      "QUANTITY_LABEL": "Quantity",
+      "PRICE_LABEL": "Price",
+      "TAX_LABEL": "Tax",
+      "PRODUCT_DETAILS_LABEL": "Product details",
+      "PRODUCT_DETAILS": {
+        "LABEL_LABEL": "Label",
+        "UNIT_LABEL": "Unit",
+        "PRICE_LABEL": "Price",
+        "TAX_LABEL": "Tax",
+        "PRICE_WO_TAX_LABEL": "Price without tax",
+        "VAT_RATE_LABEL": "VAT rate"
+      }
+    },
+    "HANDLERS": {
+      "CREATE_BUTTON": "Create",
+      "DELETE_BUTTON": "Delete",
+      "UPDATE_BUTTON": "Update"
+    }
+  },
+  "ARE_YOU_SURE_MODAL": {
+    "TITLE": "Are You sure?",
+    "CANCEL_BUTTON": "Cancel"
+  },
+  "NOTIFICATION": {
+    "INVOICE_CREATED": {
+      "TITLE": "Invoice created",
+      "TEXT": "New invoice was created!"
+    },
+    "INVOICE_UPDATED": {
+      "TITLE": "Invoice updated",
+      "TEXT": "The invoice was updated!"
+    },
+    "INVOICE_DELETED": {
+      "TITLE": "Invoice deleted",
+      "TEXT": "The invoice was deleted!"
+    },
+    "ERROR": {
+      "TITLE": "Error",
+      "TEXT": "Something went wrong!"
+    }
+  }
+}

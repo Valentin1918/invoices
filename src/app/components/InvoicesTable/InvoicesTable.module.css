@@ -1,0 +1,25 @@
+.table-wrap {
+    margin: calc(var(--navigation-height) + var(--layout-padding)) var(--layout-padding) var(--layout-padding);
+    height: calc(100vh - var(--navigation-height) - 2 * var(--layout-padding));
+    overflow-y: scroll;
+    padding: 0 var(--table-x-padding);
+}
+
+.stretch-table {
+    min-height: calc(100vh - var(--navigation-height) - 2 * var(--layout-padding));
+}
+
+.stub-cell {
+    height: calc(100vh - var(--navigation-height) - var(--table-header-height) - 2 * var(--layout-padding));
+}
+
+.invoice:hover {
+    td {
+        background-color: #DEEBFF;
+    }
+}
+
+.absolute-spinner {
+    width: calc(100% - 2 * (var(--layout-padding) + var(--table-x-padding)));
+    height: calc(100vh - var(--navigation-height) - 2 * var(--layout-padding) + var(--table-header-height));
+}
