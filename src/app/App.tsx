@@ -2,14 +2,13 @@ import { useCallback, useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import { Notification, Events, NotificationContext } from './components'
-import { InvoicesList, InvoiceShow, Page404 } from './pages'
+import { InvoicesList, Invoice, Page404 } from './pages'
 import { ROOT, INVOICE } from './routes'
 import '../i18n';
 import './assets';
 
 
 function App() {
-
   const [activeNotification, setActiveNotification] = useState<Events | null>(null);
   const closeNotification = useCallback(() => setActiveNotification(null), []);
 
@@ -18,7 +17,7 @@ function App() {
       <NotificationContext.Provider value={{ showNotification: setActiveNotification }}>
         <Router>
           <Routes>
-            <Route path={INVOICE} Component={InvoiceShow} />
+            <Route path={INVOICE} Component={Invoice} />
             <Route path={ROOT} Component={InvoicesList} />
             <Route path="*" Component={Page404} />
           </Routes>

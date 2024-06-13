@@ -10,4 +10,3 @@ export { default as ProductDetails } from './ProductDetails';
 export { default as InvoiceForm } from './InvoiceForm';
 export { default as CustomerForm } from './CustomerForm';
 export { default as InvoiceLines } from './InvoiceLines';
-export { default as InvoiceHandlers } from './InvoiceHandlers';

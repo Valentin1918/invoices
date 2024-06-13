@@ -82,11 +82,9 @@
         "VAT_RATE_LABEL": "VAT rate"
       }
     },
-    "HANDLERS": {
-      "CREATE_BUTTON": "Create",
-      "DELETE_BUTTON": "Delete",
-      "UPDATE_BUTTON": "Update"
-    }
+    "CREATE_BUTTON": "Create",
+    "DELETE_BUTTON": "Delete",
+    "UPDATE_BUTTON": "Update"
   },
   "ARE_YOU_SURE_MODAL": {
     "TITLE": "Are You sure?",
